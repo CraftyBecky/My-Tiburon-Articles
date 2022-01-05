@@ -1,0 +1,85 @@
+body {
+    box-sizing: border-box;
+    background-color: rgb(246, 253, 253);
+    font-family: 'Noto Sans Display', sans-serif;
+    letter-spacing: 0.75px;
+    display: flex;
+    align-items: center;
+}
+head {
+    font-weight: 10px;
+    font-size: 2em;
+    line-height: normal;
+}
+header {
+    background-color: #c0d6df;
+}
+head, header, footer, p.name {
+    text-align: center;
+    color: black;
+}
+h1 {
+    background-color: white;
+    display: inline-block;
+    font-size: 2.75em;
+    border-radius: 15px;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 2em;
+    color: darkslateblue;
+}
+.headlines {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    border: 5px inset purple;
+    padding: 10px;
+    border-radius: 10px;
+}
+i.fas,
+i.fab {
+    font-size: 1.50rem;
+}
+i.fab fa-discord {
+    color: rgb(115, 138, 219);
+}
+img.center, img.bottom, img.banner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 17rem;
+}
+img.right {
+    float: right;
+    margin: 0.5%;
+    padding: 2em;
+    width: 17rem;
+}
+img.banner {
+    border-radius: 50%;
+}
+p {
+    margin: 25px 35px 25px 35px;
+}
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+a:visted {
+    color: blueviolet;
+    text-decoration: none;
+}
+a:hover {
+    color: green;
+    text-decoration: underline;
+}
+a:active {
+    color: red;
+    text-decoration: underline;
+}
+#footer {
+    clear: both;
+    background-color: #ced4da;
+    padding: 0.5rem;
+}
